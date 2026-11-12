@@ -1,0 +1,10 @@
+# Add these as Variables on the Railway server service (not in a file).
+DATABASE_URL=${{Postgres.DATABASE_URL}}
+JWT_SECRET=paste-a-long-random-string-here
+PAYSTACK_SECRET_KEY=sk_live_xxxxxxxxxxxxxxxxxxxx
+SITE_URL=https://your-site-domain.com
+ADMIN_EMAIL=you@example.com
+ADMIN_PASSWORD=choose-a-strong-password
+# Optional
+EXTRA_ORIGINS=
+DATABASE_SSL=false
